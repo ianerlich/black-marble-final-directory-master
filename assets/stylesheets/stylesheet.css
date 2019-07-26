@@ -4,7 +4,7 @@ body {
   background-color: yellow;
 }
 
-h1, h2, h3, h4  {
+h1, h2, h3, h4, .overlay-content  {
   Benton Sans Wide Black;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 800;
@@ -13,13 +13,15 @@ h1, h2, h3, h4  {
 
 h1 {
 font-size: 9.1666875em;
+text-align: center;
   }
 
 h2 {
   font-size: 6.25em;
+  text-align: center;
 }
 
-h3 {
+h3, .overlay-content {
   font-size: 4.1666875em;
 }
 
@@ -54,18 +56,16 @@ h4 {
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 25%; /* 25% from the top */
+  top: 10%;
   width: 100%;
   text-align: center;
-  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-
+  margin-top: 10px;
 }
 
 /* The navigation links inside the overlay */
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 6.25em;
   color: yellow;
   display: block; /* Display block instead of inline */
   transition: 0.3s; /* Transition effects on hover (color) */
