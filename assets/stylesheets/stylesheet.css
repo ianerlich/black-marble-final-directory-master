@@ -1,6 +1,7 @@
 body {
   font-family: "Benton Sans", serif;
-  font-size: 100% /*16px*/
+  font-size: 100%; /*16px*/
+  background-color: yellow;
 }
 
 h1, h2, h3, h4  {
@@ -26,7 +27,7 @@ h4 {
   font-size: 2.0833125em;
 }
 
-  p, li  {
+  p, li, th, td  {
   Benton Sans Bold;
   font-family: benton-sans, sans-serif;
   font-weight: 700;
