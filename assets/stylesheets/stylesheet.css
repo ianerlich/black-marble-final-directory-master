@@ -1,0 +1,35 @@
+body {
+  font-family: "Benton Sans", serif;
+  font-size: 100% /*16px*/
+}
+
+h1, h2, h3, h4  {
+  Benton Sans Wide Black;
+  font-family: benton-sans-wide, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+h1 {
+font-size: 9.1666875em;
+  }
+
+h2 {
+  font-size: 6.25em;
+}
+
+h3 {
+  font-size: 4.1666875em;
+}
+
+h4 {
+  font-size: 2.0833125em;
+}
+
+  p, li  {
+  Benton Sans Bold;
+  font-family: benton-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.0833125em;
+}
