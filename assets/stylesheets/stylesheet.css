@@ -145,16 +145,17 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 /* ABOUT */
 
 .about-text{
-    width: 750px;
+    display: block;
+    width: 800px;
     text-align: center;
     margin: auto;
     line-height: 1.8;
 }
 
 .about-image{
-  margin-top: 50px;
+  margin-top: 15px;
   margin-right:auto;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
   margin-left: auto;
   text-align: center;
   width: 800px;
@@ -164,5 +165,5 @@ When the height of the screen is less than 450 pixels, change the font-size of t
   list-style-type: none;
   text-align: center;
   padding-left: 0px;
-  margin-top: -20px;
+  margin-top: -15px;
 }
