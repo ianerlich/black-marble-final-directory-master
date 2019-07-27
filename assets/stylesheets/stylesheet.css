@@ -73,7 +73,7 @@ h4 {
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 5%;
+  top: 10%;
   width: 100%;
   text-align: center;
   margin-top: 10px;
@@ -112,10 +112,6 @@ When the height of the screen is less than 450 pixels, change the font-size of t
     right: 35px;
   }
 }*/
-
-.nav-social li {
-  display: inline-block;
-}
 
 
 .home-image {
