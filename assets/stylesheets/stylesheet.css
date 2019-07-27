@@ -6,7 +6,7 @@ body {
   margin-top: 20px;
 }
 
-h1, h2, h3, .overlay-content {
+h1, h2, h3, .overlay-content, .social-links {
   Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 700;
@@ -18,13 +18,6 @@ Benton Sans Bold;
 font-family: benton-sans, sans-serif;
 font-weight: 700;
 font-style: normal;
-}
-
-.social-links {
-  Benton Sans Bold;
-  font-family: benton-sans, sans-serif;
-  font-weight: 700;
-  font-style: normal;
 }
 
 /*band name home page*/
@@ -50,12 +43,18 @@ h3  {
   text-transform: uppercase;
 }
 
-h4 {
+h4,{
   font-size: 25px;
   text-align:center;
 }
 
-p,li, th, td, .social-links {
+.social-links {
+  font-size: 25px;
+  text-align:center;
+  display: inline;
+}
+
+p,li, th, td {
   font-size: 16px;
 }
 
@@ -65,8 +64,6 @@ p,li, th, td, .social-links {
   text-transform: uppercase;
 }
 
-
-
 .hamburger {
   margin-top:-10px;
   margin-left: 15px;
@@ -74,6 +71,14 @@ p,li, th, td, .social-links {
   cursor: pointer;
 
 }
+
+a {
+text-decoration: none;
+}
+
+.social-links {}
+
+
 
 /* The Overlay (background) */
 .overlay {
@@ -132,6 +137,12 @@ When the height of the screen is less than 450 pixels, change the font-size of t
   }
 }*/
 
+
+.container-footer{
+  height: 80px;
+  padding: 10px 10px;
+  margin-top: 50px;
+}
 
 /* HOME */
 
