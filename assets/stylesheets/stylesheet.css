@@ -88,8 +88,9 @@ h4 {
 /* Position the close button (top right corner) */
 .overlay .closebtn {
   position: absolute;
-  margin: auto;
-  font-size: 4.1666875em;
+  margin-left: 22px;
+margin-top: 19px;
+  font-size: 30px;
 }
 
 /* will look into responsive font sizes later - this is from w3 for the nav overlay
