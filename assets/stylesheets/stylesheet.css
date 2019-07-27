@@ -6,19 +6,18 @@ body {
   margin-top: 20px;
 }
 
-h1, h2, h3, h4, .overlay-content {
+h1, h2, h3, .overlay-content {
   Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-p, li, th, td  {
+p, li, th, td, h4  {
 Benton Sans Bold;
 font-family: benton-sans, sans-serif;
 font-weight: 700;
 font-style: normal;
-font-size: 20px;
 }
 
 .social-links {
@@ -52,11 +51,11 @@ h3  {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 25px;
   text-align:center;
 }
 
-p, .social-links {
+p,li, th, td, .social-links {
   font-size: 16px;
 }
 
@@ -146,11 +145,10 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 /* ABOUT */
 
 .about-text{
-    width: 800px;
-    text-align: left;
+    width: 750px;
+    text-align: center;
     margin: auto;
     line-height: 1.8;
-    text-decoration: none;
 }
 
 .about-image{
@@ -163,7 +161,8 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 }
 
 .about-list-items{
-  width: 800px;
-  text-decoration: none;
-  text-align: left;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0px;
+  margin-top: -20px;
 }
