@@ -12,21 +12,24 @@ h1, h2, h3, h4, .overlay-content  {
 }
 
 h1 {
-font-size: 9.1666875em;
+font-size: 100px;
 text-align: center;
+line-height: 0%;
+text-transform: uppercase;
   }
 
-h2 {
-  font-size: 6.25em;
+h2, .overlay-content {
+  font-size: 65px;
   text-align: center;
 }
 
-h3, .overlay-content {
-  font-size: 4.1666875em;
+h3,  {
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
 h4 {
-  font-size: 2.0833125em;
+  font-size: 25px;
 }
 
   p, li, th, td  {
@@ -34,9 +37,12 @@ h4 {
   font-family: benton-sans, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 2.0833125em;
+  font-size: 25px;
 }
 
+.hamburger {
+  margin: 0px
+}
 
 /* The Overlay (background) */
 .overlay {
@@ -48,7 +54,6 @@ h4 {
   left: 0;
   top: 0;
   background-color: rgb(0,0,0); /* Black fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
   overflow-x: hidden; /* Disable horizontal scroll */
   transition: 0.3s; /* height or width depends on reveal) */
 }
@@ -96,7 +101,9 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 }*/
 
 
-.center-image {
+.home-image {
   display: block;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
