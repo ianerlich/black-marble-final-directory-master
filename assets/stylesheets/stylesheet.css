@@ -1,7 +1,9 @@
 body {
   font-family: "Benton Sans", serif;
-  font-size: 100%; /*16px*/
   background-color: yellow;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 h1, h2, h3, h4, .overlay-content  {
@@ -41,7 +43,9 @@ h4 {
 }
 
 .hamburger {
-  margin: 0px
+  margin-top:-20px;
+  margin-left: 20px;
+
 }
 
 /* The Overlay (background) */
