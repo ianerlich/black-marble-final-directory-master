@@ -6,13 +6,21 @@ body {
   margin-top: 20px;
 }
 
-h1, h2, h3, h4, .overlay-content  {
+h1, h2, h3, .overlay-content  {
   Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
+p {
+  Benton Sans Bold;
+  font-family: benton-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*band name home page*/
 h1 {
 font-size: 110px;
 text-align: center;
@@ -21,18 +29,20 @@ margin-top: 40px;
 text-transform: uppercase;
   }
 
+/*page headers*/
 h2 {
   font-size: 65px;
   text-align: center;
   text-transform: uppercase;
 }
 
+/*album names- discography*/
 h3  {
   font-size: 50px;
   text-transform: uppercase;
 }
 
-h4 {
+p {
   font-size: 20px;
 }
 
