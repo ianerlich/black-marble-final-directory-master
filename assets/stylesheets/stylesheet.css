@@ -22,8 +22,9 @@ text-transform: uppercase;
   }
 
 h2, .overlay-content {
-  font-size: 65px;
+  font-size: 75px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h3,  {
