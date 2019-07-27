@@ -131,23 +131,3 @@ When the height of the screen is less than 450 pixels, change the font-size of t
   text-align: center;
   width: 100%;
 }
-
-a:link {
-  display: inline;
-  text-decoration: none;
-  text-transform: capitalize;
-  list-style-type:none;
-
-}
-
-a:visited {
-  background-color: yellow;
-}
-
-a:hover {
-  background-color: white;
-}
-
-a:active {
-  background-color: yellow;
-}
