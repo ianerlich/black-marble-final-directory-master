@@ -7,17 +7,17 @@ body {
 }
 
 h1, h2, h3, h4, .overlay-content  {
-  Benton Sans Wide Black;
+  Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-style: normal;
 }
 
 h1 {
-font-size: 100px;
+font-size: 110px;
 text-align: center;
 line-height: 0%;
-margin-top: 15px;
+margin-top: 40px;
 text-transform: uppercase;
   }
 
@@ -108,8 +108,8 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 
 
 .home-image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
   width: 100%;
 }
