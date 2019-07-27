@@ -69,8 +69,10 @@ p, .social-links {
 
 
 .hamburger {
-  margin-top:-20px;
-  margin-left: 20px;
+  margin-top:-10px;
+  margin-left: 15px;
+  font-size: 60px;
+  cursor: pointer;
 
 }
 
@@ -148,6 +150,7 @@ When the height of the screen is less than 450 pixels, change the font-size of t
     text-align: left;
     margin: auto;
     line-height: 1.8;
+    text-decoration: none;
 }
 
 .about-image{
