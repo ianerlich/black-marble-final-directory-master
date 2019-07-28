@@ -6,14 +6,14 @@ body {
   margin-top: 20px;
 }
 
-h1, h2, h3, .overlay-content, .social-links {
+h1, h2, h3,th, .overlay-content, .social-links {
   Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-p, li, th, td, h4  {
+p, li, td, h4  {
 Benton Sans Bold;
 font-family: benton-sans, sans-serif;
 font-weight: 700;
@@ -43,7 +43,7 @@ h3  {
   text-transform: uppercase;
 }
 
-h4,{
+h4, th {
   font-size: 25px;
   text-align:center;
 }
@@ -55,7 +55,7 @@ h4,{
 
 }
 
-p,li, th, td {
+p, li, td {
   font-size: 16px;
 }
 
@@ -181,4 +181,35 @@ When the height of the screen is less than 450 pixels, change the font-size of t
   text-align: center;
   padding-left: 0px;
   margin-top: -15px;
+}
+
+
+/* MEDIA */
+
+.media-images {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* DISCOGRAPHY */
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {
+  border: 2px solid black;
+  text-align: center;
+}
+
+th {
+  height: 25px;
+}
+
+td, tr {
+  height: 50px;
+  padding: 25px;
 }
