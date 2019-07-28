@@ -22,9 +22,12 @@ font-style: normal;
 
 /*band name home page*/
 h1 {
-font-size: 110px;
+font-size: 100px;
 text-align: center;
 text-transform: uppercase;
+margin: auto;
+cursor: default;
+margin-top: -45px;
   }
 
 /*page headers*/
@@ -64,6 +67,8 @@ p, li, td {
 }
 
 .hamburger {
+  width: 75px;
+  height: 50px;
   font-size: 60px;
   cursor: pointer;
   margin-left: -10px;
@@ -71,7 +76,6 @@ p, li, td {
 }
 
 .wrapper {
-  max-width: 1180px;
   padding: 15px 30px;
 }
 
@@ -144,19 +148,17 @@ When the height of the screen is less than 450 pixels, change the font-size of t
   position: relative;
   height: 40px;
   padding-top: 150px;
-
-
 }
 
 /* HOME */
 
 
 .home-image {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -100px;
   text-align: center;
-  width: 100%;
+  width: 83%;
 }
 
 /* ABOUT */
