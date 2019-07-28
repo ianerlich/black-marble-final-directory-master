@@ -268,26 +268,21 @@ td, tr {
 
 /* Merch */
 
-.flex-container-merch {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex-container > div {
-  background-color: inherit;
-  width:300px;
-  margin: 20px;
-  text-align: center;
+.container-merch {
+  position: relative;
+  width: 500px;
+  margin-bottom: 50px;
 }
 
 .merch-image {
   opacity: 1;
-  display: block;
+  display: inline;
   height: auto;
   width: 500px;
   transition: .1s ease;
   backface-visibility: hidden;
 }
+
 
 .hover-transition-merch {
   transition: .1s ease;
