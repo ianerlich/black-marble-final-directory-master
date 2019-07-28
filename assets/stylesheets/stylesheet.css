@@ -197,7 +197,9 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 
 table {
   border-collapse: collapse;
-  width: 100%;
+  width: 85%;
+  margin: 0px auto;
+
 }
 
 table, td, th {
@@ -210,6 +212,6 @@ th {
 }
 
 td, tr {
-  height: 50px;
+  height: 35px;
   padding: 25px;
 }
