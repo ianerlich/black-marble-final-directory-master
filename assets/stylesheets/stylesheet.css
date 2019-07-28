@@ -40,7 +40,7 @@ h2 {
 
 /*album names- discography*/
 h3  {
-  font-size: 35px;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
@@ -224,16 +224,15 @@ td, tr {
 
 .container-disc {
   position: relative;
-  width: 700px;
+  width: 500px;
   margin-bottom: 50px;
-  margin-top: -30px;
 }
 
 .disc-image {
   opacity: 1;
   display: block;
   height: auto;
-  width: 700px;
+  width: 500px;
   transition: .1s ease;
   backface-visibility: hidden;
 }
@@ -256,9 +255,11 @@ td, tr {
 
 .text-disc-image {
   background-color: black;
-  width: 175%;
+  width: 275%;
   color: yellow;
-  padding: 25px 25px;
-  line-height: 0%;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
   list-style: none;
 }
