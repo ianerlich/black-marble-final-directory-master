@@ -66,11 +66,15 @@ p, li, td {
 }
 
 .hamburger {
-  margin-top:30px;
-  margin-left: 15px;
   font-size: 60px;
   cursor: pointer;
+  margin-left: -10px;
 
+}
+
+.wrapper {
+  max-width: 1180px;
+  padding: 15px 30px;
 }
 
 a {
@@ -221,7 +225,8 @@ td, tr {
 .container-disc {
   position: relative;
   width: 700px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-left: 25px;
 }
 
 .disc-image {
