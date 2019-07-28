@@ -4,6 +4,7 @@
     <title>Black Marble Media</title>
     <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/lob7rpd.css">
+    <link href="./assets/stylesheets/lity.min.css" rel="stylesheet">
   </head>
   <body>
 
@@ -21,14 +22,6 @@
           <a href="merch.html">MERCH</a>
           <a href="discography.html">DISCOGRAPHY</a>
         </div>
-      <!-- <div class="overlay-content-social">
-            <ul>
-              <li><a href="https://www.instagram.com/blackmarblenyc/" target="_blank"</a>instagram</li>
-              <li><a href="https://www.facebook.com/blackmarblenyc/" target="_blank"</a>facebook</li>
-              <li><a href="https://twitter.com/blackmarblenyc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"</a>twitter</li>
-              <li><a href="https://blackmarble.bandcamp.com/" target="_blank"</a>bandcamp</li>
-            </ul>
-          </div> -->
 
     </div>
 
@@ -37,6 +30,7 @@
         </div>
 
     <h2>Media</h2>
+    <a href="https://www.youtube.com/watch?v=o4x2XjiY3YI" data-lity><img src="./assets/images/oneeyeopen.png"></a>
     <img src="./assets/images/media-pic1.png" alt="Picture of Chris Stewart's hand close-up playing a keyboard at a show">
     <img src="./assets/images/media-pic2.png" alt="Picture of Chris Stewart playing a keyboard">
     <img src="./assets/images/media-pic3.png" alt="Picture of Black Marble performing on stage">
@@ -53,16 +47,18 @@
         <a href="https://blackmarble.bandcamp.com/" target="_blank">bandcamp</a>
     </div>
 
-    <!--Open when someone clicks on the span element-->
-    <script> function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
 
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
+    <script src="./assets/javascript/jquery-3.4.1.min.js"></script>
+    <script src="./assets/javascript/jquery.js"></script>
+    <script src="./assests/javascript/lity.min.js"></script>
+
+      // Open a URL in a lightbox
+    <script> var lightbox = lity('//https://www.youtube.com/watch?v=o4x2XjiY3YI');</script>
+
+
+    <script>
+        function openNav() {document.getElementById("myNav").style.width = "100%";}
+        function closeNav() {document.getElementById("myNav").style.width = "0%";}
     </script>
-
   </body>
 </html>
