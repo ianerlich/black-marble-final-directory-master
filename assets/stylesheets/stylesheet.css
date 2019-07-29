@@ -276,13 +276,12 @@ td, tr {
 
 .merch-image {
   opacity: 1;
-  display: inline;
+  display: block;
   height: auto;
   width: 500px;
   transition: .1s ease;
   backface-visibility: hidden;
 }
-
 
 .hover-transition-merch {
   transition: .1s ease;
