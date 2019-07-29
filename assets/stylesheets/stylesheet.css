@@ -275,7 +275,7 @@ td, tr {
 
 .merch-filters {
   width: 500px;
-  height: 50px;
+  height: 100px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -288,12 +288,11 @@ td, tr {
 .btn {
   background-color: yellow;
  border: none;
- color: black;
- padding: 30px 27px;
+ padding: 30px 30px;
  text-align: center;
  text-decoration-line: underline;
  font-size: 20px;
- margin: 4px 2px;
+ margin-top: -100px;
  cursor: pointer;
 }
 
