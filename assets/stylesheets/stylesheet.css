@@ -6,7 +6,7 @@ body {
   margin-top: 20px;
 }
 
-h1, h2, h3,th, .overlay-content, .social-links {
+h1, h2, h3, th, .btn, .overlay-content, .social-links {
   Benton Sans Wide Bold;
   font-family: benton-sans-wide, sans-serif;
   font-weight: 700;
@@ -85,6 +85,10 @@ color: black;
 
 }
 
+li {
+  cursor:default;
+}
+
 
 
 /* The Overlay (background) */
@@ -115,7 +119,8 @@ color: black;
   padding: 8px;
   text-decoration: none;
   color: yellow;
-  display: block; /* Display block instead of inline */
+  display: block;
+  width:
   transition: 0.3s; /* Transition effects on hover (color) */
 }
 
@@ -267,6 +272,31 @@ td, tr {
 
 
 /* Merch */
+
+.merch-filters {
+  width: 500px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  background-color: yellow;
+ border: none;
+ color: black;
+ padding: 30px 27px;
+ text-align: center;
+ text-decoration-line: underline;
+ font-size: 20px;
+ margin: 4px 2px;
+ cursor: pointer;
+}
+
 
 .merch-index {
   display:flex;

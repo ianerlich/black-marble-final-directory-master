@@ -26,51 +26,55 @@
     <nav class="hamburger" onclick="openNav()">&#9868;</nav>
 
     <h2>Merch</h2>
-    <h4>albums all shirts</h4>
+    <div class="merch-filters">
+        <button class="btn">shirts</button>
+        <button class="btn">all</button>
+        <button class="btn">albums</button>
+    </div>
     <div class="merch-index">
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/merch-shirt1.jpg" alt="black shirt with Black Marble text in white and two women on the front in black and white centered on the shirt. To the right of the women it says everyday and night in white">
+          <img class="merch-image shirts" src="./assets/images/merch-shirt1.jpg" alt="black shirt with Black Marble text in white and two women on the front in black and white centered on the shirt. To the right of the women it says everyday and night in white">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">104 Black</li>
             <li class="text-merch-image">SOLD OUT</li>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/merch-shirt2.jpg" alt="black shirt with Black Marble text in white below smaller text saying Shopping Center, California with a large black and white image of the shopping center parking lot centered on the shirt">
+          <img class="merch-image shirts" src="./assets/images/merch-shirt2.jpg" alt="black shirt with Black Marble text in white below smaller text saying Shopping Center, California with a large black and white image of the shopping center parking lot centered on the shirt">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">Shopping Center Black</li>
             <li class="text-merch-image">SOLD OUT</li>
           </ul>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/merch-shirt3.jpg" alt="white shirt with Black Marble text in black and two women on the front in black and white centered on the shirt. To the right of the women it says everyday and night in black">
+          <img class="merch-image shirts" src="./assets/images/merch-shirt3.jpg" alt="white shirt with Black Marble text in black and two women on the front in black and white centered on the shirt. To the right of the women it says everyday and night in black">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">104 White</li>
             <li class="text-merch-image">SOLD OUT</li>
           </ul>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/merch-shirt4.jpg" alt="white shirt with Black Marble text in black below smaller text saying Shopping Center, California with a large black and white image of the shopping center parking lot centered on the shirt">
+          <img class="merch-image shirts" src="./assets/images/merch-shirt4.jpg" alt="white shirt with Black Marble text in black below smaller text saying Shopping Center, California with a large black and white image of the shopping center parking lot centered on the shirt">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">Shopping Center White</li>
             <li class="text-merch-image">SOLD OUT</li>
           </ul>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/immaterial.jpg" alt="Album by Black Marble called It's Immaterial">
+          <img class="merch-image albums" src="./assets/images/immaterial.jpg" alt="Album by Black Marble called It's Immaterial">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">It's Immaterial</li>
             <li class="text-merch-image">SOLD OUT</li>
           </ul>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/adifferentarrangement.jpg" alt="Album by Black Marble called A Different Arrangement">
+          <img class="merch-image albums" src="./assets/images/adifferentarrangement.jpg" alt="Album by Black Marble called A Different Arrangement">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">A Different Arrangement</li>
             <li class="text-merch-image">SOLD OUT</li>
           </ul>
         </div>
         <div class="container-merch">
-          <img class="merch-image" src="./assets/images/weightagainstthedoor.jpg" alt="Album by Black Marble called Weight Against the Door">
+          <img class="merch-image albums" src="./assets/images/weightagainstthedoor.jpg" alt="Album by Black Marble called Weight Against the Door">
           <ul class="hover-transition-merch">
             <li class="text-merch-image">Weight Against the Door</li>
             <li class="text-merch-image">SOLD OUT</li>
@@ -87,16 +91,21 @@
 </div> <!-- wrapper div-->
 
 
-    <!--Open when someone clicks on the span element-->
-    <script> function openNav() {
-    document.getElementById("myNav").style.width = "100%";
-  }
 
-  /* Close when someone clicks on the "x" symbol inside the overlay */
-  function closeNav() {
-    document.getElementById("myNav").style.width = "0%";
-  }
-    </script>
+
+
+
+
+
+<!--Open when someone clicks on the span element -->
+<script> function openNav() {
+                  document.getElementById("myNav").style.width = "100%";
+          }
+/* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+          }
+</script>
 
 
   </body>
