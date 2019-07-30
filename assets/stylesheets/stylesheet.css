@@ -198,8 +198,6 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 
 .media-images {
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Tour Dates */
