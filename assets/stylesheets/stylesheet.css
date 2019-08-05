@@ -194,12 +194,6 @@ When the height of the screen is less than 450 pixels, change the font-size of t
 }
 
 
-/* MEDIA */
-
-.media-images {
-  width: 50%;
-}
-
 /* Tour Dates */
 
 
@@ -341,4 +335,28 @@ td, tr {
   padding-bottom: 8px;
   padding-left: 20px;
   list-style: none;
+}
+
+/* Media */
+
+.media-box {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.videos {
+  display: block;
+  margin: 20px;
+  ma==
+}
+
+.media-images {
+  display: block;
+  margin: 20px;
+}
+
+.media-h3-center{
+  text-align: center;
 }
