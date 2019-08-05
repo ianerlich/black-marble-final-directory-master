@@ -270,7 +270,10 @@ td, tr {
   height: auto;
   display: block;
   text-align: center;
-  margin: auto;
+  margin-top: -20px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -298,6 +301,7 @@ td, tr {
   text-decoration: underline;
   margin: auto;
   text-align: center;
+  font-size: 16px;
 }
 
 
