@@ -28,7 +28,7 @@
     <h2>Merch</h2>
 
     <!-- Control buttons -->
-    <div class="myBtnContainer">
+    <div id="myBtnContainer">
       <button class="btn active" onclick="filterSelection('all')"> show all</button>
       <button class="btn" onclick="filterSelection('shirts')"> shirts</button>
       <button class="btn" onclick="filterSelection('albums')">albums</button>
@@ -44,7 +44,7 @@
       <div class="filterDiv shirts"><img class="merch-image" src="./assets/images/merch-shirt3.jpg"
         alt="white shirt with Black Marble text in black and two women on the front in black and white centered on the shirt. To the right of the women it says everyday and night in black">
       </div>
-      <div class="filterDiv cars shirts"><img class="merch-image" src="./assets/images/merch-shirt4.jpg"
+      <div class="filterDiv shirts"><img class="merch-image" src="./assets/images/merch-shirt4.jpg"
         alt="white shirt with Black Marble text in black below smaller text saying Shopping Center, California with a large black and white image of the shopping center parking lot centered on the shirt">
       </div>
       <div class="filterDiv albums"><img class="merch-image" src="./assets/images/immaterial.jpg" alt="Album by Black Marble called It's Immaterial">
@@ -128,8 +128,7 @@
   </div> <!-- wrapper div-->
 
   <script>
-
-   filterSelection("all")
+  filterSelection("all")
   function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("filterDiv");
@@ -167,7 +166,7 @@
   }
 
   // Add active class to the current control button (highlight it)
-  var btnContainer = document.getElementsByClassName("myBtnContainer");
+  var btnContainer = document.getElementById("myBtnContainer");
   var btns = btnContainer.getElementsByClassName("btn");
   for (var i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function() {
