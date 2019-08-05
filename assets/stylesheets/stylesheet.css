@@ -265,76 +265,44 @@ td, tr {
 
 /* Merch */
 
-.merch-filters {
-  width: 500px;
-  height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+.container {
+  overflow: hidden;
 }
 
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
 .show {
   display: block;
 }
 
+/* Style the buttons */
 .btn {
-  background-color: yellow;
- border: none;
- padding: 30px 30px;
- text-align: center;
- text-decoration-line: underline;
- font-size: 20px;
- margin-top: -100px;
- cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
 }
 
-
-.merch-index {
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
 }
 
-.container-merch{
-  position: relative;
-  margin: 70px;
-  text-align: left;
-
-}
-
-.merch-image {
-  opacity: 1;
-  display: block;
-  height: auto;
-  width: 400px;
-  transition: .2s ease;
-}
-
-.hover-transition-merch {
-  transition: .2s ease;
-  opacity: 0;
-  position: absolute;
-  top: 20%;
-  left: 60%;
-  width: 110px;
-  height: 50px;
-}
-
-
-.container-merch:hover .hover-transition-merch{
-  opacity: 1;
-}
-
-.text-merch-image {
-  background-color: black;
-  width: 200%;
-  color: yellow;
-  padding-top: 8px;
-  padding-right: 8px;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  list-style: none;
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
 }
 
 /* Media */
